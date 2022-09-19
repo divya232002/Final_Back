@@ -8,7 +8,7 @@ const bodyparser=require('body-parser')
 const mongoose=require('mongoose')
 const cors=require('cors')
 
-const port=process.env.PORT||9090;
+const port=process.env.PORT;
 const DBSTRING="mongodb+srv://zomato:zomato@cluster0.hiss5md.mongodb.net/Zomato_1"
 // "mongodb://localhost/Zomato_1"
 
